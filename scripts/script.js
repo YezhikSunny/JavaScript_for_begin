@@ -38,9 +38,30 @@ alert(d); //ответ: 4
 alert(a); //ответ: 3
 alert(b); //ответ: 3
 /*2 задание
+a = a*2 = 2*2 = 4;
+x = 1 + 4 = 5;
+Ответ: 5.
 */
+a = 2;
+let x = 1 + (a *= 2);
 /*3 задание
 */
+function randomstart() {
+   return parseInt(Math.random()*100 - 50);
+}
+
+a = randomstart();
+alert(a);
+b = randomstart();
+alert(b);
+if (a>=0 && b>=0) {
+    let s = a + b;
+} else if (a<0 && b<0) {
+    s = a * b;
+} else if(a>=0 && b<0 || a<0 && b>=0) {
+    s = a + b;
+}
+alert(s);
 /*4 задание
 */
 /*5 задание
