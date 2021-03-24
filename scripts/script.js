@@ -49,7 +49,6 @@ let x = 1 + (a *= 2);
 function randomstart() {
    return parseInt(Math.random()*100 - 50);
 }
-
 a = randomstart();
 alert(a);
 b = randomstart();
@@ -64,6 +63,28 @@ if (a>=0 && b>=0) {
 alert(s);
 /*4 задание
 */
+function sum(a,b) {
+    return a + b;
+}
+function subtraction(a,b) {
+    return a - b;
+}
+function multiplication(a,b) {
+    return a * b;
+}
+function division(a,b) {
+    return a / b;
+}
+let p =  sum(a,b);
+alert('Сумма: ' + p);
+p =  subtraction(a,b);
+alert('Вычитание: ' + p);
+p =  multiplication(a,b);
+alert('Произведение: ' + p);
+p =  division(a,b);
+alert('Деление: ' + p);
 /*5 задание
+*/
+/*6 задание
 */
 
