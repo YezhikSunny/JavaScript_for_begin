@@ -37,3 +37,22 @@ for(let i = 1;i<=10;i++){
     console.log(post.comments[0].rating.dislikes);
     console.log(post.comments[1].userId);
     console.log(post.comments[1].text);
+// 3 задание
+const products = [
+    {
+        id: 3,
+        price: 200,
+    },
+    {
+        id: 4,
+        price: 900,
+    },
+    {
+        id: 1,
+        price: 1000,
+    },
+];
+for(let i = 0;i< products.length;i++) {
+    products[i].price = (products[i].price*85)/100;
+    console.log(products[i].price);
+}
