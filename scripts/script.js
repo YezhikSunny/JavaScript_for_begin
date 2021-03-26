@@ -56,33 +56,24 @@ for(let i = 0;i< products.length;i++) {
     products[i].price = (products[i].price*85)/100;
     console.log(products[i].price);
 }
-// 4 задание
-const productss = [
-    {
-    id: 3,
-    price: 127,
-    photos: [
-    "1.jpg",
-    "2.jpg",
-    ]
-    },
-    {
-    id: 5,
-    price: 499,
-    photos: []
-    },
-    {
-    id: 10,
-    price: 26,
-    photos: [
-    "3.jpg"
-    ]
-    },
-    {
-    id: 8, price: 78,
-    },
-];
+// 5 задание
+function num5() {
+    console.log(0);
+    console.log(1);
+    console.log(2);
+    console.log(3);
+    console.log(4);
+    console.log(5);
+}
+function num9() {
+    console.log(6);
+    console.log(7);
+    console.log(8);
+    console.log(9);
+}
+for(num5();num9();){
 
+}
 // 6 задание
 let str = '';
 for(let i = 0;i<20;i++){
