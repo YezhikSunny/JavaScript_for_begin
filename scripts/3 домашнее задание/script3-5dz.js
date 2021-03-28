@@ -1,0 +1,19 @@
+"use strict";
+// 5 задание
+function num5() {
+    console.log(0);
+    console.log(1);
+    console.log(2);
+    console.log(3);
+    console.log(4);
+    console.log(5);
+}
+function num9() {
+    console.log(6);
+    console.log(7);
+    console.log(8);
+    console.log(9);
+}
+for(num5();num9();){
+
+}
